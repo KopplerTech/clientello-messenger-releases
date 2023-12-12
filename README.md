@@ -2,11 +2,11 @@
 
 Este repositório é dedicado à distribuição do executável da aplicação desktop do [Clientello](https://clientello.com.br/), uma aplicação desktop desenvolvida por [Koppler Tecnologia](https://koppler.com.br/).
 
-## Sobre a Aplicação
+## Sobre a aplicação
 
 Essa aplicação é um cliente para conexão direta com o WhatsApp Web para utilização do auto-atendimento do Clientello. Para mais informações, visite [clientello.com.br](https://clientello.com.br/).
 
-## Como Usar
+## Como usar
 
 Instruções detalhadas sobre como instalar e utilizar o executável. Por exemplo:
 
@@ -18,6 +18,6 @@ Instruções detalhadas sobre como instalar e utilizar o executável. Por exempl
 
 Este software é distribuído sob uma Licença Proprietária. Para mais informações, consulte o arquivo [LICENSE](LICENSE) neste repositório.
 
-## Suporte e Contato
+## Suporte e contato
 
 Se você tiver dúvidas ou precisar de suporte, pode entrar em contato através de suporte@koppler.com.br.
