@@ -1,3 +1,5 @@
+name: Create tag
+
 on:
   workflow_dispatch:
     inputs:
@@ -6,7 +8,7 @@ on:
         required: true
 
 jobs:
-  check_and_create_tag:
+  create_tag:
     runs-on: ubuntu-latest
     name: Check and create tag
 
@@ -19,18 +21,7 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
 
-      - name: Check if tag exists
-        id: tagcheck
+      - name: Create tag
         run: |
-          if git rev-parse "refs/tags/${{ github.event.inputs.tag }}" >/dev/null 2>&1; then
-            echo "Tag ${{ github.event.inputs.tag }} already exists"
-            echo "TAG_EXISTS=true" >> $GITHUB_ENV
-          else
-            echo "${{ github.event.inputs.tag }} does not exist"
-            echo "TAG_EXISTS=false" >> $GITHUB_ENV
-
-      - name: Create and push tag
-        if: env.TAG_EXISTS == 'false'
-        run: |
-          git tag ${{ github.event.inputs.tag }}
+          git tag -a ${{ github.event.inputs.tag }} -m "Release ${{ github.event.inputs.tag }}"
           git push origin ${{ github.event.inputs.tag }}

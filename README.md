@@ -1,5 +1,7 @@
 # Clientello messenger
 
+[![.github/workflows/create_tag.yml](https://github.com/KopplerTech/clientello-messenger-releases/actions/workflows/create_tag.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/KopplerTech/clientello-messenger-releases/actions/workflows/create_tag.yml)
+
 Este repositório é dedicado à distribuição do executável da aplicação desktop do [Clientello](https://clientello.com.br/), uma aplicação desktop desenvolvida por [Koppler Tecnologia](https://koppler.com.br/).
 
 ## Sobre a aplicação
