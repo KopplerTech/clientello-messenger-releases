@@ -12,7 +12,7 @@ Essa aplicação é um cliente para conexão direta com o WhatsApp Web para util
 
 Instruções detalhadas sobre como instalar e utilizar o executável. Por exemplo:
 
-1. Baixe o último executável da seção [Releases](link-para-releases).
+1. Baixe o último executável da seção [Releases](releases).
 2. Execute a aplicação e siga as instruções para entrar com suas credenciais.
 3. Mantenha a aplicação aberta para que o auto-atendimento funcione.
 
